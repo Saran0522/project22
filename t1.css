@@ -1,0 +1,149 @@
+
+body{
+    font-family:sans-serif;
+    color:black;
+    margin:0;
+}
+ul a{
+   color: #008000;
+    text-decoration: none;
+}
+h1{
+    font-family: algerian;
+}
+header{
+    background-color: #30373b;
+    color:white;
+    text-align:center;
+    padding: 5px;
+}
+nav {
+    line-height: 30px;
+    background-color: #ffebcd;
+    padding: 5px;
+    text-align: center;
+   
+}
+
+
+nav li{
+     list-style: none;
+     
+}
+nav ul li{
+    display: inline-block;
+    padding: 15px;
+    font-size: 1.2em;
+    text-transform: uppercase;  
+}
+a:active{
+    color:blue;
+}
+
+section{
+    padding: 10px
+}
+section h1,h2{
+    text-align: center;
+}
+section p{
+    max-width: 700px;
+    margin: 2em auto;
+    line-height: 1.56;
+}
+h2{
+    color: #8b008b;
+    text-decoration: underline;
+}
+
+.container{
+    position: relative;
+}
+.topright{
+    position: absolute;
+    top: 8px;
+    right: 16px; 
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+div ul {
+  background: #3399ff;
+  padding: 35px;
+}
+div li{
+  background: #cce5ff;
+  margin-left: 50px;
+margin-right: 50px;
+padding: 5px;
+}
+.proright{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+#awards{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#awards td, #awards th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#awards th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: #330000;
+    color:white;
+}
+.awards {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+img{
+    border-radius: 25px;
+}
+
+.photos{
+    float:left;
+    padding: 5px;
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: center;
+}
+.photos:hover{
+    color:#dc143c;
+}
+.photos::after{
+    content: ".";
+    display: block;
+    clear:both;
+    
+    
+}
+h3{
+    text-align: center;
+    color: #c71585;
+     
+}
+h4{
+    text-align: center;
+    color: #cd5c5c;
+}
+h3,h4{
+    background-color: black;
+}
+footer{
+    text-align: center;
+    
+}
+
